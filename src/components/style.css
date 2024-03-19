@@ -1,0 +1,186 @@
+.navbar{
+    font-size: 20px;
+    background-color: rgb(247, 68, 172);
+    color: black;
+    padding: 20px 17px;  
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    padding: 20px ;
+    color: black;
+  }
+  
+  .navbar a.active{
+    background-color: rgb(252, 122, 202);
+  }
+  
+  h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:purple;
+    margin-top: 50px;
+  }
+  
+  .login{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:palevioletred;
+    margin: 50px;
+
+  }
+  label{
+    font-size: 22px;
+  }
+  input{
+    font-size: 22px;
+  }
+  button{
+    font-size: 22px;
+  }
+  .link{
+    font-size: 22px;
+  }
+  
+  .signup{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:palevioletred;
+    margin: 50px;
+  }
+  .logout{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:palevioletred;
+    margin: 50px;
+  }
+  .container1
+{
+    border:5px solid white;
+    background-color:rgb(253, 134, 204);
+    color:white;
+    margin:50px;
+    padding:40px;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2
+{
+    border:5px solid white;
+    background-color:rgb(253, 134, 204);
+    color:white;
+    padding:40px;
+    margin:50px;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3
+{
+    border:5px solid white;
+    background-color:rgb(253, 134, 204);
+    color:white;
+    padding:10px;
+    margin:50px;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactus-container{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .message-container button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding:5px;
+  }
+  .detail{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width:500px;
+  }
+  .container
+{
+    max-width: 800px;
+    margin:20px auto;
+    background-color:white;
+    padding:20px;
+    border-radius:8px;
+}
+form{
+    margin-bottom:20px;
+}
+label{
+    display:block;
+    margin-bottom:8px;
+}
+input{
+    width:100%;
+    padding:8px;
+    margin-bottom:16px;
+    box-sizing:border-box;
+}
+button{
+    padding:8px 16px;
+    background-color:rgb(247, 68, 172);
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+th,td{
+    border:1px solid rgb(160, 158, 158);
+    padding:10px;
+    text-align:left;
+}
+th{
+    background-color:rgb(253, 134, 204);
+    color:white;
+}
+.popup
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0 0 0 0.5);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index:1;
+}
+.popup form{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.3);
+    position:relative;
+}
+.popup button{
+    background-color:palevioletred;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+.flex-container
+{
+  display:flex;
+  justify-content:space-evenly;
+}
+.flex-items
+{
+  background-color:pink;
+  text-align:center;
+  width:300px;
+  height:600px;
+}

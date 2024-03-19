@@ -1,0 +1,37 @@
+import axios from 'axios'
+import React,{useState} from 'react'
+import { NavLink } from 'react-router-dom'
+import './style.css'
+
+
+const Signup = () => {
+    const[username,setUsername]=useState('')
+    const[email,setEmail]=useState('')
+    const[password,setPassword]=useState('')
+    const handleSignup=()=>{
+        axios.post(`http://localhost:3001/users`,
+        {
+            "username":username,
+            "email":email,
+            "password":password,
+        })
+        .then(res=>console.log(res))
+        .catch(err=>console.log(err))
+    }
+  return (
+    <div className='signup'>
+      <form onSubmit={handleSignup}>
+        <label>Username:</label>
+        <input type='text' value={username} onChange={(e)=>setUsername(e.target.value)}/><br></br><br></br><br></br>
+        <label>Email:</label>
+        <input type='email' value={email} onChange={(e)=>setEmail(e.target.value)}/><br></br><br></br><br></br>
+        <label>Password:</label>
+        <input type='password' value={password} onChange={(e)=>setPassword(e.target.value)}/><br></br><br></br><br></br>
+        <button type='submit'>Signup</button><br></br><br></br>
+      </form>
+      <NavLink to="/login">Already have an account? Login</NavLink>
+    </div>
+  )
+}
+
+export default Signup

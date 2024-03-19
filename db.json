@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "username": "adam",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": "4218"
+    },
+    {
+      "id": "0c3f",
+      "username": "john",
+      "email": "j@gmail.com",
+      "password": "9876"
+    },
+    {
+      "id": "164c",
+      "username": "peter",
+      "email": "p@gmail.com",
+      "password": "4567"
+    },
+    {
+      "id": "2364",
+      "username": "Deepu",
+      "email": "d@gmail.com",
+      "password": "0987"
+    },
+    {
+      "id": "b4f6",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "0000"
+    },
+    {
+      "id": "c2ab",
+      "username": "Okey",
+      "email": "o@gmail.com",
+      "password": "8888"
+    },
+    {
+      "id": "e340",
+      "username": "Diya",
+      "email": "diya@gmail.com",
+      "password": "13579"
+    }
+  ],
+  "students": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlo2Mcne5gfIgamsBMyHUboDtaQoQsGGC-LA&usqp=CAU",
+      "id": "1",
+      "name": "Adam",
+      "age": 25,
+      "area": "Disaster Relief",
+      "schedule": "NIL"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlo2Mcne5gfIgamsBMyHUboDtaQoQsGGC-LA&usqp=CAU",
+      "id": "2",
+      "name": "John",
+      "age": 23,
+      "area": "Educational Institution",
+      "schedule": "NIL"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlo2Mcne5gfIgamsBMyHUboDtaQoQsGGC-LA&usqp=CAU",
+      "id": "3",
+      "name": "Peter",
+      "age": "27",
+      "area": "Healthcare Sector",
+      "schedule": "On(2/4/24) At(XXX)"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlo2Mcne5gfIgamsBMyHUboDtaQoQsGGC-LA&usqp=CAU",
+      "id": "4",
+      "name": "Ram",
+      "age": "26",
+      "area": "Community Response",
+      "schedule": "NIL"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlo2Mcne5gfIgamsBMyHUboDtaQoQsGGC-LA&usqp=CAU",
+      "id": "5",
+      "name": "Ravi",
+      "age": "22",
+      "area": "Social Responsibility",
+      "schedule": "On(5/4/24) At(ZZZ)"
+    }
+  ]
+}
